@@ -13,8 +13,7 @@ class PaperspaceCli < Formula
     system "npm", "install", "pkg", *Language::Node.local_npm_install_args
     system "./node_modules/.bin/pkg", "-t", "node10", "."
     File.rename("paperspace-node", "paperspace")
-    prefix.install "paperspace"
-    bin.install_symlink prefix/"paperspace"
+    bin.install "paperspace"
   end
 
   test do
