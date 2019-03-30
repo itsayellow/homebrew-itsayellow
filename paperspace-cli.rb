@@ -21,9 +21,5 @@ class PaperspaceCLI < Formula
     system "#{bin}/paperspace", "--help"
     # Unfortunately testing all other paperspace functionality requires user
     #   credentials. (i.e. paperspace login)
-    #system "#{bin}/paperspace", "templates", "list"
-    #system "#{bin}/paperspace", "networks", "list"
-    #system "#{bin}/paperspace", "machines", "availability", "--region", "'East Coast (NY2)'", "--machineType", "'GPU+'"
-    #system "#{bin}/paperspace", "users", "list"
   end
 end
