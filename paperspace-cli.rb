@@ -1,12 +1,12 @@
 require "language/node"
 
-class PaperspaceCLI < Formula
-  desc "Paperspace CLI for Paperspace cloud compute resources."
+class PaperspaceCli < Formula
+  desc "Paperspace CLI for Paperspace cloud compute resources"
   homepage "https://www.paperspace.com/api"
   url "https://github.com/Paperspace/paperspace-node/archive/0.1.13.tar.gz"
   sha256 "d94951ba05bcf8f5c093503904299c6ed705111ec79eedda85081b82ee77ed8f"
 
-  depends_on "npm" => :build
+  depends_on "node" => :build
 
   def install
     system "npm", "install", *Language::Node.local_npm_install_args
