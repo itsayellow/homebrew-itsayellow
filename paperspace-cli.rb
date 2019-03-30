@@ -11,6 +11,7 @@ class PaperspaceCLI < Formula
   def install
     system "npm", "install", *Language::Node.local_npm_install_args
     system "npm", "install", "pkg", *Language::Node.local_npm_install_args
+    # Use node10 because it's the latest node that pkg can work with.
     system "./node_modules/.bin/pkg", "-t", "node10", "."
     File.rename("paperspace-node", "paperspace")
     bin.install "paperspace"
