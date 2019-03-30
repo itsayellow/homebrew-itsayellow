@@ -1,5 +1,5 @@
 # homebrew-paperspace
-My own personal homebrew tap
+This [Homebrew](https://brew.sh/) tap allows you to use Homebrew to install and upgrade the [Paperspace CLI](https://paperspace.github.io/paperspace-node/#paperspace-cli).  The Paperspace CLI allows you to manage and monitor jobs on the [Paperspace](https://www.paperspace.com/) cloud computing service.
 
 ```bash
 brew tap itsayellow/paperspace
