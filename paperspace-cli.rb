@@ -1,6 +1,6 @@
 require "language/node"
 
-class PaperspaceCli < Formula
+class PaperspaceCLI < Formula
   desc "Paperspace CLI for Paperspace cloud compute resources."
   homepage "https://www.paperspace.com/api"
   url "https://github.com/Paperspace/paperspace-node/archive/0.1.13.tar.gz"
