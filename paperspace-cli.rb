@@ -3,8 +3,8 @@ require "language/node"
 class PaperspaceCli < Formula
   desc "Paperspace CLI to manage Paperspace cloud compute resources"
   homepage "https://www.paperspace.com/api"
-  url "https://github.com/Paperspace/paperspace-node/archive/0.1.13.tar.gz"
-  sha256 "d94951ba05bcf8f5c093503904299c6ed705111ec79eedda85081b82ee77ed8f"
+  url "https://github.com/Paperspace/paperspace-node/archive/0.1.14.tar.gz"
+  sha256 "79fb9e74182c49209868cf587a19debbeee0ca4fa0affb38b7015a24eda64c0d"
 
   depends_on "node" => :build
 
