@@ -4,7 +4,6 @@ class PaperspaceCli < Formula
   desc "Paperspace CLI to manage Paperspace cloud compute resources"
   homepage "https://www.paperspace.com/api"
   url "https://github.com/Paperspace/paperspace-node/archive/0.1.14.tar.gz"
-  version "0.1.14"
   sha256 "79fb9e74182c49209868cf587a19debbeee0ca4fa0affb38b7015a24eda64c0d"
 
   depends_on "node" => :build
