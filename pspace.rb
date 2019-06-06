@@ -1,8 +1,8 @@
 class Pspace < Formula
   include Language::Python::Virtualenv
 
-  url "https://github.com/itsayellow/pspace/archive/v0.2.tar.gz"
-  sha256 "eb7d1866c42d01a58529e615e49baaff76f4f51f4a4766885bd52725a730a7a0"
+  url "https://github.com/itsayellow/pspace/archive/v0.3.tar.gz"
+  sha256 "8c7d8c93fa02db6a99c4208cee333b9be7ef3b306794ff6f82476fca44879795"
 
   depends_on "python"
 
